@@ -8,7 +8,7 @@ class Openv < Formula
   sha256 "876ba5d9937d83aa31b23521f83c15e9d3d5fc67d264be04312090a393d1db23"
 
   depends_on "node"
-  depends_on "1password-cli"
+  depends_on cask: "1password-cli"
 
   def install
     system "npm", "install", *Language::Node.std_npm_install_args(libexec)
