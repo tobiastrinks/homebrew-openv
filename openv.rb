@@ -1,6 +1,6 @@
 require "language/node"
 
-class openv < Formula
+class Openv < Formula
   desc "Command Line Interface to set terminal session environment variables from 1Password secret notes"
   homepage "https://github.com/tobiastrinks/openv#readme"
   url "https://registry.npmjs.org/@ttrinks/openv/-/openv-1.0.0.tgz"
