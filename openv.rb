@@ -5,7 +5,7 @@ class Openv < Formula
   homepage "https://github.com/tobiastrinks/openv#readme"
   url "https://registry.npmjs.org/@ttrinks/openv/-/openv-1.0.1.tgz"
   version "1.0.1"
-  sha256 "876ba5d9937d83aa31b23521f83c15e9d3d5fc67d264be04312090a393d1db23"
+  sha256 "c25b9e1bfe327dae5ac1ff0ca0f7433f19fc97dc3f6ad01ac68d545f5868847b"
 
   depends_on "node"
 
